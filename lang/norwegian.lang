@@ -1,0 +1,57 @@
+<?php
+//3.2.10  $file_charset
+
+$file_charset = 'iso-8859-1';
+
+$w_allServicesRunning = 'Alle tjenester kj?rer';
+$w_oneServiceRunning = '%n av %t tjenester kj?rer';
+$w_allServicesStopped = 'Ingen av %t tjenester kj?rer';
+
+$w_serverOffline = 'tjener Offline';
+$w_serverOnline = 'tjener Online';
+
+$w_about = 'Om...';
+$w_helpFile = 'Hjelpfil';
+$w_help = 'Hjelp';
+$w_exit = 'Avslutt';
+
+$w_localhost = 'Localhost';
+$w_phpmyadmin = 'phpMyAdmin';
+$w_sqlitemanager = 'SQLiteManager';
+$w_wwwDirectory = 'www-mappen';
+$w_logFiles = 'Loggfiler';
+$w_configFiles = 'Konfig-filer';
+$w_apacheModules = 'Apache-moduler';
+$w_phpSettings = 'PHP-innstillinger';
+$w_aliasDirectories = 'Aliaser';
+$w_services = 'Tjenester';
+$w_apache = 'Apache';
+$w_mysql = 'MySQL';
+$w_startServices = 'Start alle tjenester';
+$w_stopServices = 'Stopp alle tjenester';
+$w_restartServices = 'Gjenstart alle tjenester';
+$w_putOnline = 'Sett Online';
+$w_putOffline = 'Sett Offline';
+
+$w_apacheErrorLog = 'Apache-feillogg';
+$w_apacheAccessLog = 'Apache-adgangslogg';
+$w_phpLog = 'PHP-feillogg';
+$w_mysqlLog = 'MySQL-logg';
+$w_addAlias = 'Legg til alias';
+$w_refresh = 'Oppdat?r';
+$w_phpExtensions = 'PHP-tillegg';
+$w_addExtension = 'Tilf?y tillegg';
+
+$w_startResume = 'Start/fortsett tjeneste';
+$w_pauseService = 'Pause tjeneste';
+$w_stopService = 'Stopp tjeneste';
+$w_restartService = 'Gjenstart tjeneste';
+$w_testPort80 = 'Test port 80';
+$w_testPort = 'Test port ';
+$w_installService = 'Install?r tjeneste';
+$w_removeService = 'Fjern tjeneste';
+$w_mysqlConsole = 'MySQL-konsoll';
+
+$w_language = 'Spr?k';
+
+?>

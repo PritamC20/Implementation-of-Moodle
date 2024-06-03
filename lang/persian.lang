@@ -1,0 +1,66 @@
+<?php
+
+
+// translated by M.R.H <p30win10@outlook.com>
+// ترجمه توسط : M.R.H <p30win10@outlook.com>
+
+//3.2.10  $file_charset
+
+$file_charset = 'utf-8';
+
+$w_allServicesRunning = 'همه سرویسها درحال اجرا است';
+$w_oneServiceRunning = '%n از %t سرویسها درحال اجرا است';
+$w_allServicesStopped = 'هیچ یک از %t سرویسها درحال اجرا نیست';
+
+$w_serverOffline = 'سرور محلی است';
+$w_serverOnline = 'سرور آنلاین است';
+
+$w_about = 'درباره:(ترجمه توسط محمدرضا حق پرست)(translated by M.R.H <p30win10@outlook.com)';
+$w_helpFile = 'فایل راهنما';
+$w_help = 'راهنما';
+$w_exit = 'خروج';
+$w_version = 'نسخه(ورژن)';
+$w_service = 'مدیریت سرویسها';
+
+$w_localhost = 'هاست محلی';
+$w_phpmyadmin = 'مدیریت پی اچ پی';
+$w_sqlitemanager = 'مدیریت اس کیو ال لایت';
+$w_wwwDirectory = 'www بازکردن دایرکتوری';
+$w_logFiles = 'فایل گزارش';
+$w_configFiles = 'تنظیمات فایلها';
+$w_apacheModules = 'ماژولهای آپاچی';
+$w_phpSettings = 'تنظیمات پی اچ پی';
+$w_aliasDirectories = 'دایرکتوری ها نام مستعار';
+$w_services = 'سرویسها';
+$w_apache = 'آپاچی';
+$w_mysql = 'اس کیو ال من';
+$w_startServices = 'شروع همه سرویسها';
+$w_stopServices = 'توقف همه سرویسها';
+$w_restartServices = 'شروع مجدد همه سرویسها';
+$w_putOnline = 'قراردادن درحالت آنلاین';
+$w_putOffline = 'قراردادن درحالت آفلاین';
+
+$w_apacheErrorLog = 'گزارش خطاهای آپاچی';
+$w_apacheAccessLog = 'گزارش دسترسیهای آپاچی';
+$w_phpLog = 'گزارش خطاهای پی اچ پی';
+$w_mysqlLog = 'گزارش دسترسیهای اس کیو ال من';
+$w_addAlias = 'اضافه کردن یک نام مستعار';
+$w_editAlias = 'ویرایش نام مستعار';
+$w_editHtaccess = 'ویرایش .htaccess';
+$w_deleteAlias = 'حذف نام مستعار';
+$w_refresh = 'تازه سازی';
+$w_phpExtensions = 'افزونها های پی اچ پی ';
+$w_addExtension = 'اضافه کردن افزونه ها';
+
+$w_startResume = 'شروع/ازسرگیری سرویسها';
+$w_pauseService = 'ترمز سرویسها';
+$w_stopService = 'توقف سرویسها';
+$w_restartService = 'شروع مجدد همه سرویسها';
+$w_testPort80 = 'تست پورت80';
+$w_installService = 'نصب سرویس';
+$w_removeService = 'حذف سرویس';
+$w_mysqlConsole = 'کنسول اس کیو ال من';
+
+$w_language = 'زبان';
+
+?>

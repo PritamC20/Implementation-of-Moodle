@@ -1,0 +1,88 @@
+<?php
+//3.2.10  $file_charset
+
+$file_charset = 'utf-8';
+
+$w_allServicesRunning = 'Όλες οι υπηρεσίες λειτουργούν';
+$w_oneServiceRunning = '%n από τις %t υπηρεσίες λειτουργεί';
+$w_allServicesStopped = 'Καμία από τίς %t υπηρεσίες δεν λειτουργεί';
+
+$w_serverOffline = 'Τοπικός διακομιστής';
+$w_serverOnline = 'Ο διακομιστής είναι σε λειτουργία';
+
+$w_about = '&Σχετικά...';
+$w_helpFile = 'Αρχείο Βοηθείας';
+$w_help = 'Βοήθεια';
+$w_helpForums = 'Δημόσια συζήτηση υποστήριξης';
+$w_helpUse = 'Οδηγίες λειτουργίας';
+$w_exit = 'Έξοδος';
+$w_version = 'Έκδοση';
+$w_service = 'Διαχείριση υπηρεσίας';
+$w_services_msc = 'Πίνακας Ελέγχου Υπηρεσιών';
+$w_doc = 'Τεκμηρίωση';
+$w_cmdWindows = 'Παράθυρο εντολών';
+
+$w_localhost = 'Localhost';
+$w_phpmyadmin = 'phpMyAdmin';
+$w_sqlitemanager = 'SQLiteManager';
+$w_wwwDirectory = 'Φάκελος www';
+$w_logFiles = 'Αρχεία καταγραφής';
+$w_configFiles = 'Αρχεία Ρυθμίσεων';
+$w_apacheModules = 'Πρόσθετα Apache';
+$w_apacheSettings = 'Ρυθμίσεις Apache';
+$w_apacheDefaults = 'Προεπιλεγμένες Οδηγίες';
+$w_phpSettings = 'Ρυθμίσεις PHP';
+$w_aliasDirectories = 'Φάκελοι Alias';
+$w_services = 'Υπηρεσίες';
+$w_apache = 'Apache';
+$w_apacheCommand = $w_cmdWindows.' '.$w_apache.'/bin';
+$w_apacheDoc = $w_doc.' Apache';
+$w_mysql = 'MySQL';
+$w_mysqlDoc = $w_doc.' MySQL';
+$w_mysqlSettings = 'Ρυθμίσεις MySQL';
+$w_mariaSettings = 'Ρυθμίσεις MariaDB';
+$w_mariadbDoc = $w_doc.' MariaDB';
+$w_startServices = 'Εκκίνηση όλων των Υπηρεσιών';
+$w_stopServices = 'Σταμάτημα όλων των Υπηρεσιών';
+$w_restartServices = 'Επανεκκίνηση όλων των υπηρεσιών';
+$w_putOnline = 'Τοποθέτηση σε λειτουργία';
+$w_putOffline = 'Τοποθέτηση εκτός λειτουργίας';
+// Format ICU from https://unicode-org.github.io/icu/userguide/format_parse/datetime/#date-field-symbol-table
+// be careful
+$w_FormatDate = "eeee, d MMM YYYY H:mm:ss";
+$w_startedOn = 'Εκκίνηση: ';
+$w_restartWamp = 'Εκκίνηση από το μηδέν';
+$w_warning = 'ΠΡΟΕΙΔΟΠΟΙΗΣΗ';
+
+$w_apacheErrorLog = 'Καταγραφή σφαλμάτων Apache';
+$w_apacheAccessLog = 'Καταγραφή πρόσβασης Apache';
+$w_phpLog = 'Καταγραφή σφαλμάτων PHP';
+$w_changelog ='Καταγραφή αλλαγών';
+$w_phpDoc = $w_doc.' PHP';
+$w_mysqlLog = 'Καταγραφή MySQL';
+$w_mariadbLog = 'Καταγραφή MariaDB';
+$w_addAlias = 'Προσθήκη alias';
+$w_editAlias = 'Επεξεργασία alias';
+$w_editHtaccess = 'Επεξεργασία .htaccess';
+$w_deleteAlias = 'Διαγραφή alias';
+$w_refresh = 'Ανανέωση';
+$w_phpExtensions = 'Επεκτάσεις PHP';
+$w_addExtension = 'Προσθήκη μιας επέκτασης';
+$w_phpCommand = $w_cmdWindows.' PHP';
+
+$w_startResume = '&Εκκίνηση / Συνέχιση της Υπηρεσίας';
+$w_pauseService = '&Παύση της Υπηρεσίας';
+$w_stopService = '&Σταμάτημα της Υπηρεσίας';
+$w_restartService = 'Επα&νεκκίνηση της Υπηρεσίας';
+$w_testPort80 = '&Δοκιμή της Θύρας 80';
+$w_installService = 'Ε&γκατάσταση της Υπηρεσίας';
+$w_removeService = 'Απομάκρυνση της Υπηρεσίας';
+$w_mysqlConsole = 'Γραμμή εντολών της MySQL';
+$w_mysqlCommand = $w_cmdWindows.' '.$w_mysql.'/bin';
+$w_mariadbConsole = 'Γραμμή εντολών της MariaDB';
+$w_mariadbCommand = $w_cmdWindows.' MariaDB/bin';
+
+$w_noDBMS = 'Κανένα Σύστημα Βάσεων Δεδομένων';
+
+$w_language = 'Γλώσσα';
+?>

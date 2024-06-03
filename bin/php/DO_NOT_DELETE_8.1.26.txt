@@ -1,0 +1,2 @@
+This PHP version 8.1.26 is used by WampServer in CLI mode.
+If you delete it, WampServer won't work anymore.

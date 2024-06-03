@@ -1,0 +1,58 @@
+<?php
+
+//3.2.10  $file_charset
+
+$file_charset = 'iso-8859-1';
+
+$w_allServicesRunning = 'Kaikki palvelut k?ynniss?';
+$w_oneServiceRunning = '%n / %t palvelua k?ynniss?';
+$w_allServicesStopped = 'Ei yht??n %t palvelusta k?ynniss?';
+
+$w_serverOffline = 'palvelin offline-tilassa';
+$w_serverOnline = 'palvelin online-tilassa';
+
+$w_about = '&Tietoja...';
+$w_helpFile = 'Ohjetiedosto';
+$w_help = 'Ohje';
+$w_exit = 'Lopeta';
+
+$w_localhost = 'Localhost';
+$w_phpmyadmin = 'phpMyAdmin';
+$w_sqlitemanager = 'SQLiteManager';
+$w_wwwDirectory = 'www-hakemisto';
+$w_logFiles = 'Lokitiedostot';
+$w_configFiles = 'Konfigurointitiedostot';
+$w_apacheModules = 'Apachen moduulit';
+$w_phpSettings = 'PHP:n asetukset';
+$w_aliasDirectories = 'Alias hakemistot';
+$w_services = 'Palvelut';
+$w_apache = 'Apache';
+$w_mysql = 'MySQL';
+$w_startServices = 'K?ynnist? kaikki palvelut';
+$w_stopServices = 'Sammuta kaikki palvelut';
+$w_restartServices = 'K?ynnist? uudelleen kaikki palvelut';
+$w_putOnline = 'Aseta Online-tilaan';
+$w_putOffline = 'Aseta Offline-tilaan';
+
+$w_apacheErrorLog = 'Apachen virheloki';
+$w_apacheAccessLog = 'Apachen valvontaloki';
+$w_phpLog = 'PHP:n virheloki';
+$w_mysqlLog = 'MySQL:n loki';
+$w_addAlias = 'Lis?? alias';
+$w_refresh = 'P?ivit?';
+$w_phpExtensions = 'PHP:n laajennukset';
+$w_addExtension = 'Lis?? laajennus';
+
+$w_startResume = 'K?ynni&st?/Sammuta palvelu';
+$w_pauseService = '&Pys?yt? palvelu';
+$w_stopService = 'Lope&ta palvelu';
+$w_restartService = 'K?ynnist? &uudelleen palvelu';
+$w_testPort80 = 'Testaa portti 80';
+$w_testPort = 'Testaa portti ';
+$w_installService = '&Asenna palvelu';
+$w_removeService = 'P&oista palvelu';
+$w_mysqlConsole = 'MySQL konsoli';
+
+$w_language = 'Kieli';
+
+?>

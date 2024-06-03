@@ -1,0 +1,24 @@
+--- Installation of Wampserver ---
+BEFORE proceeding with the installation of Wampserver, you must ensure that certain elements are installed on your system, otherwise Wampserver will absolutely not run, and in addition, the installation will be faulty and you need to remove Wampserver BEFORE installing the elements that were missing.
+Make sure you are "up to date" in the redistributable packages VC10, VC11, VC13 ,  VC15 and VS16.
+See --- Visual C++ Packages below.
+--- Do not install Wampserver OVER an existing version, follow the advice:
+- Install a new version of Wampserver: http://forum.wampserver.com/read.php?2,123606
+If you install Wampserver over an existing version, not only it will not work, but you risk losing your existing databases.
+--- Install Wampserver in a folder at the root of a disk, for example C:\wamp or D:\wamp. Take an installation path that does not include spaces or diacritics; Therefore, no installation in c: \ Program Files\ or C: \ Program Files (x86)
+We must BEFORE installing, disable or close some applications:
+- Close Skype or force not to use port 80
+Item No. 04 of the Wampserver TROUBLESHOOTING TIPS:http://forum.wampserver.com/read.php?2,134915
+- Disable IIS
+Item No. 08 of the Wampserver TROUBLESHOOTING TIPS:http://forum.wampserver.com/read.php?2,134915
+If these prerequisites are not in place, Press the Cancel button to cancel the installation, then apply the prerequisites and restart the installation.
+This program requires Administrator privileges to function properly. It will be launched with the "Run as administrator" option. If you do not want a program to have this option, cancel the installation.
+--- Visual C++ Packages ---
+To verify that all VC ++ packages are installed and with the latest versions, you can use the tool:
+https://wampserver.aviatechno.net/files/tools/check_vcredist.exe and you will find all the packages on https://wampserver.aviatechno.net/ in section Visual C++ Redistribuable Packages
+You must install each package "as an administrator", so right-click the exe file and then run as Administrator. Do not use a previously loaded tool. Make a new download to make sure you are using the correct version.
+If you have a 64-bit Windows, you must install both 32 and 64bit versions of each VisualC++ package.
+For ease of use, see : Best way to install Visual C++ Redistributable Packages
+at the bottom of https://wampserver.aviatechno.net/
+
+

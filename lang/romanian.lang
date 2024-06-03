@@ -1,0 +1,105 @@
+<?php
+// Romanian language file for Menu
+// Translated by Ciprian Murariu <ciprianmp[at]yahoo[dot]com>
+//3.0.7 - $w_mariadbConsole - $w_mariadbLog - $w_mariaSettings
+//        $w_apacheDoc - $w_mysqlDoc - $w_mariadbDoc - $w_phpDoc - $w_doc
+//3.0.8 - $w_noDBMS
+//3.1.1   $w_cmdWindows - $w_mysqlCommand - $w_mariadbCommand - $w_apacheCommand - $w_services_msc
+//3.2.0		$w_helpForums - $w_helpUse
+//3.2.1   $w_apacheSettings - $w_apacheDefaults
+//3.2.2   $w_helpFile modified
+//3.2.6   $w_startedOn - $w_restartWamp - $w_phpCommand
+//3.2.7   $w_changelog - $w_warning
+//        --- Suppress: $w_putOnline - $w_putOffline
+//3.2.9   $w_startOfServices - $w_servicesStarted - $w_bepatient - $w_ready - $w_state_services
+//      --- Suppress: $w_serverOffline - $w_serverOnline
+//3.3.0  $file_charset
+
+$file_charset = 'iso-8859-2'; //Same as Windows-1250 not used by mb_encoding...
+
+$w_translated_by = 'Tradus în limba românã de Ciprian Murariu';
+
+$w_allServicesRunning = 'Toate serviciile ruleazã normal';
+$w_oneServiceRunning = 'Doar %n din %t servicii ruleazã';
+$w_allServicesStopped = 'Nu ruleazã niciunul dintre cele %t servicii';
+$w_state_services = 'Click-Dreapta -> Instrumente -> Verificã starea serviciilor';
+
+$w_about = 'Despre...';
+$w_helpFile = 'Fiºiere ºi Documentaþii';
+$w_help = 'Ajutor';
+$w_helpForums = 'Forumuri de sprijin';
+$w_helpUse = 'Instrucþiuni de operare';
+$w_exit = 'Ieºire';
+$w_version = 'Schimbã Versiunea';
+$w_service = 'Administreazã Serviciul';
+$w_services_msc = 'Panoul de Control al Serviciilor';
+$w_doc = 'Documentaþie';
+$w_cmdWindows = 'Ferestre de Comandã';
+
+$w_localhost = 'Localhost';
+$w_phpmyadmin = 'phpMyAdmin';
+$w_sqlitemanager = 'SQLiteManager';
+$w_wwwDirectory = 'directorul www';
+$w_logFiles = 'Fiºiere Jurnal';
+$w_configFiles = 'Fiºiere Configurare';
+$w_apacheModules = 'Module Apache';
+$w_apacheSettings = 'Setãri Apache';
+$w_apacheDefaults = 'Directive implicite';
+$w_phpSettings = 'Setãri PHP';
+$w_aliasDirectories = 'Directoare Alias';
+$w_services = 'Servicii';
+$w_apache = 'Apache';
+$w_apacheCommand = $w_cmdWindows.' '.$w_apache.'/bin';
+$w_apacheDoc = $w_doc.' Apache';
+$w_mysql = 'MySQL';
+$w_mysqlDoc = $w_doc.' MySQL';
+$w_mysqlSettings = 'Setãri MySQL';
+$w_mariaSettings = 'Setãri MariaDB';
+$w_mariadbDoc = $w_doc.' MariaDB';
+$w_startServices = 'Porneºte Toate Serviciile';
+$w_stopServices = 'Opreºte Toate Serviciile';
+$w_restartServices = 'Reporneºte Toate Serviciile';
+// Format ICU from https://unicode-org.github.io/icu/userguide/format_parse/datetime/#date-field-symbol-table
+// be careful
+$w_FormatDate = "dd.MM.Y hh:mm";
+$w_startedOn = 'Pornit la: ';
+$w_restartWamp = 'Repornire de la zero';
+$w_warning = 'ATENÞIE';
+
+$w_apacheErrorLog = 'Jurnal Erori Apache';
+$w_apacheAccessLog = 'Jurnal Acces Apache';
+$w_phpLog = 'Jurnal Erori PHP';
+$w_changelog = 'Jurnalul modificãrilor';
+$w_phpDoc = $w_doc.' PHP';
+$w_mysqlLog = 'Jurnal MySQL';
+$w_mariadbLog = 'Jurnal MariaDB';
+$w_addAlias = 'Adaugã un alias';
+$w_editAlias = 'Modificã alias';
+$w_editHtaccess = 'Modificã .htaccess';
+$w_deleteAlias = 'Eliminã alias';
+$w_refresh = 'Reîncarcã';
+$w_phpExtensions = 'Extensii PHP';
+$w_addExtension = 'Adaugã extensie';
+$w_phpCommand = $w_cmdWindows.' PHP';
+
+$w_startResume = 'Porneºte/Reia Serviciul';
+$w_pauseService = 'Suspendã Serviciul';
+$w_stopService = 'Opreºte Serviciul';
+$w_restartService = 'Reporneºte Serviciul';
+$w_testPort80 = 'Testeazã Portul 80';
+$w_installService = 'Instaleazã Serviciul';
+$w_removeService = 'Eliminã Serviciul';
+$w_mysqlConsole = 'Consolã MySQL';
+$w_mysqlCommand = $w_cmdWindows.' '.$w_mysql.'/bin';
+$w_mariadbConsole = 'Consolã MariaDB';
+$w_mariadbCommand = $w_cmdWindows.' MariaDB/bin';
+
+$w_noDBMS = 'Fãrã suport pentru baze de date';
+
+$w_language = 'Schimbã Limba';
+
+$w_startOfServices = 'Pornire servicii';
+$w_servicesStarted = 'Servicii pornite';
+$w_bepatient = 'Aveþi rãbdare !';
+$w_ready = 'Gata !';
+?>

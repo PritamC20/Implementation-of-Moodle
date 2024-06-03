@@ -1,0 +1,56 @@
+<?php
+//3.2.10  $file_charset
+
+$file_charset = 'iso-8859-1';
+
+$w_allServicesRunning = 'K?ik teenused t??tavad';
+$w_oneServiceRunning = '%t-st teenusest t??tab %n';
+$w_allServicesStopped = '?kski %t-st teenusest ei t??ta';
+
+$w_serverOffline = 'server Internetiga ?hendamata';
+$w_serverOnline = 'server Internetiga ?hendatud';
+
+$w_about = '&Teave...';
+$w_helpFile = 'Abifail';
+$w_help = 'Abi';
+$w_exit = 'V?lju';
+
+$w_localhost = 'Localhost';
+$w_phpmyadmin = 'phpMyAdmin';
+$w_sqlitemanager = 'SQLiteManager';
+$w_wwwDirectory = 'www kaust';
+$w_logFiles = 'Logifailid';
+$w_configFiles = 'Seadistusfailid';
+$w_apacheModules = 'Apache moodulid';
+$w_phpSettings = 'PHP seadistus';
+$w_aliasDirectories = 'Alias asukohad';
+$w_services = 'Teenused';
+$w_apache = 'Apache';
+$w_mysql = 'MySQL';
+$w_startServices = 'K?ivita k?ik teenused';
+$w_stopServices = 'Peata k?ik teenused';
+$w_restartServices = 'Taask?ivita k?ik teenused';
+$w_putOnline = '?henda Internetiga';
+$w_putOffline = 'L?peta ?hendus Internetiga';
+
+$w_apacheLog = 'Apache vealogi';
+$w_phpLog = 'php vealogi';
+$w_mysqlLog = 'mysql vealogi';
+$w_addAlias = 'Lisa alias';
+$w_refresh = 'V?rskenda';
+$w_phpExtensions = 'PHP laiendused';
+$w_addExtension = 'Lisa laiendus';
+
+$w_startResume = 'Teenuse &k?ivitamine/j?tkamine';
+$w_pauseService = '&Pausi teenus';
+$w_stopService = 'Pea&ta teenus';
+$w_restartService = 'T&aask?ivita teenus';
+$w_testPort80 = 'Katseta porti 80';
+$w_testPort = 'Katseta porti ';
+$w_installService = 'Pa&igalda teenus';
+$w_removeService = '&Eemalda teenus';
+$w_mysqlConsole = 'MySQL konsool';
+
+$w_language = 'Keel';
+
+?>

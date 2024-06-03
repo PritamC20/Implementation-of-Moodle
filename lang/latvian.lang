@@ -1,0 +1,87 @@
+<?php
+//3.0.7 - $w_mariadbConsole - $w_mariadbLog - $w_mariaSettings
+//        $w_apacheDoc - $w_mysqlDoc - $w_mariadbDoc - $w_phpDoc - $w_doc
+//3.0.8 - $w_noDBMS
+//3.1.1   $w_cmdWindows - $w_mysqlCommand - $w_mariadbCommand - $w_apacheCommand - $w_services_msc
+//3.2.0	  $w_helpForums - $w_helpUse
+//3.2.1   $w_apacheSettings - $w_apacheDefaults
+//3.2.2   $w_helpFile modifié
+//3.2.10  $file_charset
+
+$file_charset = 'iso-8859-1';
+
+$w_allServicesRunning = 'Visi pakalpojumi darbojas';
+$w_oneServiceRunning = '%n no %t pakalpojumiem darbojas';
+$w_allServicesStopped = 'Neviens no %t pakalpojumiem nedarbojas';
+
+$w_serverOffline = 'viet?jais serveris';
+$w_serverOnline = 'serveris tie?saist?';
+
+$w_about = 'Par...';
+$w_helpFile = 'Faili un dokument?cija';
+$w_help = 'Pal?dz?ba';
+$w_helpForums = 'Atbalsta forumi';
+$w_helpUse = 'Lieto?anas instrukcija';
+$w_exit = 'Iziet';
+$w_version = 'Versija';
+$w_service = 'Pakalpojuma administr??ana';
+$w_services_msc = 'Pakalpojumu vad?bas panelis';
+$w_doc = 'dokument?cija';
+$w_cmdWindows = 'Komandu logi';
+
+$w_localhost = 'Localhost';
+$w_phpmyadmin = 'phpMyAdmin';
+$w_sqlitemanager = 'SQLiteManager';
+$w_wwwDirectory = 'www direktorijs';
+$w_logFiles = '?urn?la faili';
+$w_configFiles = 'Failu konfigur??ana';
+$w_apacheModules = 'Apache modu?i';
+$w_apacheSettings = 'Apache iestat?jumi';
+$w_apacheDefaults = 'Noklus?juma direkt?vas';
+$w_phpSettings = 'PHP iestat?jumi';
+$w_aliasDirectories = 'Alias direktoriji';
+$w_services = 'Pakalpojumi';
+$w_apache = 'Apache';
+$w_apacheCommand = $w_cmdWindows.' '.$w_apache.'/bin';
+$w_apacheDoc = 'Apache '.$w_doc;
+$w_mysql = 'MySQL';
+$w_mysqlDoc = 'MySQL '.$w_doc;
+$w_mysqlSettings = 'MySQL iestat?jumi';
+$w_mariaSettings = 'MariaDB iestat?jumi';
+$w_mariadbDoc = 'MariaDB '.$w_doc;
+$w_startServices = 'S?kt visus pakalpojumus';
+$w_stopServices = 'P?rtraukt visus pakalpojumus';
+$w_restartServices = 'Restart?t visus pakalpojumus';
+$w_putOnline = 'Ievietot tie?saist?';
+$w_putOffline = 'Ievietot bezsaist?';
+
+$w_apacheErrorLog = 'Apache k??du ?urn?ls';
+$w_apacheAccessLog = 'Apache piek?uves ?urn?ls';
+$w_phpLog = 'PHP k??du ?urn?ls';
+$w_phpDoc = 'PHP '.$w_doc;
+$w_mysqlLog = 'MySQL ?urn?ls';
+$w_mariadbLog = 'MariaDB ?urn?ls';
+$w_addAlias = 'Pievienot aizst?jv?rdu';
+$w_editAlias = 'Redi??t aizst?jv?rdu';
+$w_editHtaccess = 'Redi??t .htaccess';
+$w_deleteAlias = 'Apspiest aizst?jv?rdu';
+$w_refresh = 'Atsvaidzin?t';
+$w_phpExtensions = 'PHP papla?in?jumi';
+$w_addExtension = 'Pievienot papla?in?jumu';
+
+$w_startResume = 'S?kt / ats?kt pakalpojumu';
+$w_pauseService = 'Pauz?t pakalpojumu';
+$w_stopService = 'Aptur?t pakalpojumu';
+$w_restartService = 'Restart?t pakalpojumu';
+$w_testPort80 = 'P?rbaudes ports 80';
+$w_installService = 'Instal?t pakalpojumu';
+$w_removeService = 'No?emt pakalpojumu';
+$w_mysqlConsole = 'MySQL konsole';
+$w_mysqlCommand = $w_cmdWindows.' '.$w_mysql.'/bin';
+$w_mariadbConsole = 'MariaDB konsole';
+$w_mariadbCommand = $w_cmdWindows.' MariaDB/bin';
+
+$w_noDBMS = 'Nav datu b?zes sist?mas';
+
+$w_language = 'Valoda';
+?>

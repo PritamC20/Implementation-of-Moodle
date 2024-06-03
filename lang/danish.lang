@@ -1,0 +1,57 @@
+<?php
+//3.2.10  $file_charset
+
+$file_charset = 'iso-8859-1';
+
+$w_allServicesRunning = 'Alle servicer k?rer';
+$w_oneServiceRunning = '%n af %t servicer k?rer';
+$w_allServicesStopped = 'Ingen af %t servicer k?rer';
+
+$w_serverOffline = 'server Offline';
+$w_serverOnline = 'server Online';
+
+$w_about = '&About...';
+$w_helpFile = 'Hj?lp Fil';
+$w_help = 'Hj?lp';
+$w_exit = 'Exit';
+
+$w_localhost = 'Localhost';
+$w_phpmyadmin = 'phpMyAdmin';
+$w_sqlitemanager = 'SQLiteManager';
+$w_wwwDirectory = 'www mappen';
+$w_logFiles = 'Log filer';
+$w_configFiles = 'Config filer';
+$w_apacheModules = 'Apache moduler';
+$w_phpSettings = 'PHP indstillinger';
+$w_aliasDirectories = 'Genveje';
+$w_services = 'Servicer';
+$w_apache = 'Apache';
+$w_mysql = 'MySQL';
+$w_startServices = 'Start Alle Servicer';
+$w_stopServices = 'Stop Alle Servicer';
+$w_restartServices = 'Genstart Alle Servicer';
+$w_putOnline = 'S?t Online';
+$w_putOffline = 'S?t Offline';
+
+$w_apacheErrorLog = 'Apache fejl log';
+$w_apacheAccessLog = 'Apache adgangs log';
+$w_phpLog = 'PHP fejl log';
+$w_mysqlLog = 'MySQL log';
+$w_addAlias = 'Tilf?j en genvej';
+$w_refresh = 'Genl?s';
+$w_phpExtensions = 'PHP tilf?jelser';
+$w_addExtension = 'Add tilf?jelse';
+
+$w_startResume = '&Start/fors?t Service';
+$w_pauseService = '&Pause Service';
+$w_stopService = 'S&top Service';
+$w_restartService = '&Genstart Service';
+$w_testPort80 = 'Test Port 80';
+$w_testPort = 'Test Port ';
+$w_installService = '&Installer Service';
+$w_removeService = '&Fjern Service';
+$w_mysqlConsole = 'MySQL kontrol';
+
+$w_language = 'Sprog';
+
+?>

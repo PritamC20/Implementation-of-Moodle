@@ -1,0 +1,62 @@
+<?php
+//3.2.10  $file_charset
+
+$file_charset = 'iso-8859-1';
+
+$w_allServicesRunning = 'Todos os servi?os rodando';
+$w_oneServiceRunning = '%n de %t servi?os rodando';
+$w_allServicesStopped = 'Nenhum dos %t servi?os rodando';
+
+$w_serverOffline = 'servidor Offline';
+$w_serverOnline = 'servidor Online';
+
+$w_about = 'Sobre...';
+$w_helpFile = 'Arquivo de ajuda';
+$w_help = 'Ajuda';
+$w_exit = 'Sair';
+$w_version = 'Vers?o';
+$w_service = 'Op??es do Servi?o';
+
+$w_localhost = 'Localhost';
+$w_phpmyadmin = 'phpMyAdmin';
+$w_sqlitemanager = 'SQLiteManager';
+$w_wwwDirectory = 'Abrir Diret?rio www';
+$w_logFiles = 'Logs';
+$w_configFiles = 'Arquivos de configura??o';
+$w_apacheModules = 'M?dulos Apache';
+$w_phpSettings = 'Op??es PHP';
+$w_aliasDirectories = 'Diret?rios de Alias';
+$w_services = 'Servi?os';
+$w_apache = 'Apache';
+$w_mysql = 'MySQL';
+$w_startServices = 'Iniciar todos os Servi?os';
+$w_stopServices = 'Parar todos os Servi?os';
+$w_restartServices = 'Reiniciar todos os Servi?os';
+$w_putOnline = 'Colocar Online';
+$w_putOffline = 'Colocar Offline';
+
+$w_apacheErrorLog = 'Log de Erro do Apache';
+$w_apacheAccessLog = 'Log de Acesso do Apache';
+$w_phpLog = 'Log de Erro do PHP';
+$w_mysqlLog = 'Log do MySQL';
+$w_addAlias = 'Adicionar um alias';
+$w_editAlias = 'Editar alias';
+$w_editHtaccess = 'Editar .htaccess';
+$w_deleteAlias = 'Apagar alias';
+$w_refresh = 'Atualizar';
+$w_phpExtensions = 'Extens?es PHP';
+$w_addExtension = 'Adicionar extens?o';
+
+$w_startResume = 'Iniciar/Resumir Servi?o';
+$w_pauseService = 'Pausar Servi?o';
+$w_stopService = 'Parar Servi?o';
+$w_restartService = 'Reiniciar Servi?o';
+$w_testPort80 = 'Testar Porta 80';
+$w_testPort = 'Testar Porta ';
+$w_installService = 'Instalar Servi?o';
+$w_removeService = 'Remover Servi?o';
+$w_mysqlConsole = 'Console do MySQL';
+
+$w_language = 'Idioma';
+
+?>

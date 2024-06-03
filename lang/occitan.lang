@@ -1,0 +1,58 @@
+<?php
+// Tòni Galhard - tony.gaillard@supinfo.com
+//3.2.10  $file_charset
+
+$file_charset = 'iso-8859-1';
+
+$w_allServicesRunning = 'Totes los servicis son lan?ats';
+$w_oneServiceRunning = '%n servici sus %t es lan?at';
+$w_allServicesStopped = 'Los %t servicis son ?teints';
+
+$w_serverOffline = 'servidor pas en linha';
+$w_serverOnline = 'servidor en linha';
+
+$w_about = 'A prepaus de...';
+$w_helpFile = 'Fichi?r d\'ajuda';
+$w_help = 'Ajuda';
+$w_exit = 'Tampar';
+
+$w_localhost = 'Localhost';
+$w_phpmyadmin = 'phpMyAdmin';
+$w_sqlitemanager = 'SQLiteManager';
+$w_wwwDirectory = 'Repert?ri www';
+$w_logFiles = 'Fichi?rs de log';
+$w_configFiles = 'Fichi?rs de configuracion';
+$w_apacheModules = 'Moduls Apache';
+$w_phpSettings = 'Configuracion PHP';
+$w_aliasDirectories = 'Repert?ris Ali?s';
+$w_services = 'Servicis';
+$w_apache = 'Apache';
+$w_mysql = 'MySQL';
+$w_startServices = 'Lan?ar los servicis';
+$w_stopServices = 'Arrestar los servicis';
+$w_restartServices = 'Tornar lan?ar los servicis';
+$w_putOnline = 'Passar en linha';
+$w_putOffline = 'Passar en f?ra-linha';
+
+$w_apacheErrorLog = 'Apache error log';
+$w_apacheAccessLog = 'Apache access log';
+$w_phpLog = 'PHP error log';
+$w_mysqlLog = 'MySQL log';
+$w_addAlias = 'Crear un ali?s';
+$w_refresh = 'Actualizar';
+$w_phpExtensions = 'Extensions PHP';
+$w_addExtension = 'Apondre una extension';
+
+$w_startResume = 'Lan?ar lo servici';
+$w_pauseService = 'Metre en pausa lo servici';
+$w_stopService = 'Arrestar lo servici';
+$w_restartService = 'Tornar lan?ar lo servici';
+$w_testPort80 = 'Testar la P?rta 80';
+$w_testPort = 'Testar la P?rta ';
+$w_installService = 'Installar lo Servici';
+$w_removeService = 'Suprimir lo Servici';
+$w_mysqlConsole = 'Cons?la MySQL';
+
+$w_language = 'Lenga';
+
+?>
